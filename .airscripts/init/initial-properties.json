@@ -1,0 +1,79 @@
+{
+    "items": [
+      {
+        "reference": "R101",
+        "price": "200000",
+        "priceType": "",
+        "listingType": "sale",
+        "propertyType": "Flat",
+        "bedrooms": 1,
+        "summary": "Summertown Villa is understood to have been built in about 1840 for Charles Shillingford. It was the last Regency villa to have been built in Summertown",
+        "description": "Internal accommodation extends to nearly 5,000 sq ft and is configured across three storeys. Entry is gained via a gated front garden which has been carefully planted amidst shingle and a paved path leading to the front door. The front rooms of the house retain their traditional layout and are formed of a drawing room on the left and a study on the right. A long entrance way leads to the main living spaces and the introduction of open-plan.",
+        "postCode": "OX2 TI9",
+        "line1": "Summertown Villa",
+        "town": "Oxford",
+        "country": "UK",
+        "photos": [
+            {
+              "id": 1307354,
+              "alt": null,
+              "name": "",
+              "focus": null,
+              "title": null,
+              "filename": "https://a.storyblok.com/f/90950/400x224/9b6765f719/107268408_565639020768162_2401207412401342541_n.png",
+              "copyright": null
+            }
+          ]
+      },
+      {
+        "reference": "R102",
+        "price": "195000",
+        "priceType": "",
+        "listingType": "sale",
+        "propertyType": "Flat",
+        "bedrooms": 1,
+        "summary": "A spectacular oak and steel spiral staircase dramatically ascends to the upper floors in an oriel window. The staircase protrudes slightly from the side of the house and is partially visible from the front",
+        "description": "Situated in the heart of Summertown within walking distance of the City's premier schools; including amongst others Summer Fields , The Dragon Pre -Prep and St Edwards . Summertown Villa is an absolute gem of a period family home. Standing in 1.87 acres acres of mature gardens, it is hard to believe the house is in the middle of Oxford. Also with a Coach House and Flat.",
+        "postCode": "OX2 UX7",
+        "line1": "Staverton Road Villa",
+        "town": "Oxford",
+        "country": "UK",
+        "photos": [
+            {
+              "id": 1307354,
+              "alt": null,
+              "name": "",
+              "focus": null,
+              "title": null,
+              "filename": "https://a.storyblok.com/f/90950/400x224/9b6765f719/107268408_565639020768162_2401207412401342541_n.png",
+              "copyright": null
+            }
+          ]
+      },
+      {
+        "reference": "R103",
+        "price": "535000",
+        "priceType": "",
+        "listingType": "sale",
+        "propertyType": "Flat",
+        "bedrooms": 2,
+        "summary": "This unique two-bedroom Edwardian house is positioned on Staverton Road, a quiet residential street in the neighbourhood of Summertown in Oxford. Built in 1912, the house was the former residence of Hilda Padel, great granddaughter of Charles Darwin",
+        "description": "The house is formed of two parts: the front facade, which retains its traditional Edwardian makeup including twin pediments of brick and concrete, wooden gables and a recessed porch; while the rear, which is unmistakably modern, incorporates a cantilevered extension of glass, stretching over three storeys above the tree tops below. However, it is inaccurate to think of the house as divided in any other sense. The modern additions achieve a formal unity through the use of materials (largely oak and glass) but also through the uncanny creation of large living spaces which respect their surroundings. The contemporary extensions are concealed behind the original house, remaining hidden from view on approach",
+        "postCode": "OX2 UJ2",
+        "line1": "Banbury Road",
+        "town": "Oxford",
+        "country": "UK",
+        "photos": [
+            {
+              "id": 1307354,
+              "alt": null,
+              "name": "",
+              "focus": null,
+              "title": null,
+              "filename": "https://a.storyblok.com/f/90950/400x224/9b6765f719/107268408_565639020768162_2401207412401342541_n.png",
+              "copyright": null
+            }
+          ]
+      }
+    ]
+  }

@@ -1,0 +1,28 @@
+{
+  "name": "vite-tailwind-starter",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite --port 5000",
+    "build": "vite build",
+    "serve": "vite serve",
+    "fullbuild": "yarn get-data&&yarn build",
+    "lint": "eslint --ext .js,.vue views --fix",
+    "get-data": "node .airscripts/data-builder.js"
+  },
+  "dependencies": {
+    "@tailwindcss/ui": "^0.6.0",
+    "lodash-es": "^4.17.15",
+    "tailwindcss": "^1.6.1",
+    "vue": "^3.0.0-beta.15",
+    "vue-composable": "1.0.0-beta.8",
+    "vue-router": "^4.0.0-alpha.13"
+  },
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.0.0-beta.13",
+    "eslint": "^7.3.1",
+    "eslint-plugin-vue": "^7.0.0-alpha.6",
+    "storyblok-js-client": "^2.3.0",
+    "vite": "1.0.0-rc.4"
+  }
+}

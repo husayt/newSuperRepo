@@ -1,0 +1,119 @@
+{
+    "entities": [
+        {
+            "name": "PropertyListing",
+            "fields": [
+                {
+                    "name": "reference",
+                    "type": "text",
+                    "required": true
+                },
+                {
+                    "name": "price",
+                    "type": "number",
+                    "required": true
+                },
+                {
+                    "name": "priceType",
+                    "type": "option",
+                    "options": [
+                        { "name": "None", "value": "" },
+                        { "name": "PCM", "value": "pcm" },
+                        { "name": "Per Week", "value": "pw" }
+                    ]
+                },
+                {
+                    "name": "listingType",
+                    "type": "option",
+                    "required": true,
+                    "options": [
+                        { "name": "Rent", "value": "rent" },
+                        { "name": "Sale", "value": "sale" }
+                    ]
+                },  
+                {
+                    "name": "propertyType",
+                    "type": "option",
+                    "required": true,
+                    "options": [
+                        { "name": "Flat", "value": "Flat" },
+                        { "name": "Detached house", "value": "Detached house" },
+                        { "name": "Semi detached house", "value": "Semi detached house" },
+                        { "name": "Terraced house", "value": "Terraced house" },
+                        { "name": "End of terrace house", "value": "End of terrace house" },
+                        { "name": "Cottage", "value": "Cottage" },
+                        { "name": "Bungalow", "value": "Bungalow" },
+                        { "name": "Land", "value": "Land" }
+                    ]
+                },
+                {
+                    "name": "bedrooms",
+                    "type": "number",
+                    "required": true
+                },
+                {
+                    "name": "bathrooms",
+                    "type": "number"
+                },
+                {
+                    "name": "receptions",
+                    "type": "number"
+                },
+                {
+                    "name": "areaSqft",
+                    "type": "number"
+                },
+                {
+                    "name": "photos",
+                    "type": "multiasset"
+                },
+                {
+                    "name": "floorplans",
+                    "type": "multiasset"
+                },
+                {
+                    "name": "epc",
+                    "type": "multiasset"
+                },
+                {
+                    "name": "summary",
+                    "type": "textarea"
+                },
+                {
+                    "name": "description",
+                    "type": "textarea"
+                },
+                {
+                    "name": "postCode",
+                    "type": "text",
+                    "required": true
+                },
+                {
+                    "name": "line1",
+                    "type": "text",
+                    "required": true
+                },
+                {
+                    "name": "line2",
+                    "type": "text"
+                },
+                {
+                    "name": "town",
+                    "type": "text"
+                },
+                {
+                    "name": "country",
+                    "type": "text"
+                },
+                {
+                    "name": "latitude",
+                    "type": "text"
+                },
+                {
+                    "name": "longitude",
+                    "type": "text"
+                }
+            ]
+        }
+    ]
+}

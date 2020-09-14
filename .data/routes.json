@@ -1,0 +1,17 @@
+[
+  { "path": "/", "component": "Home", "meta": { "title": "Home" } },
+  { "path": "/about", "component": "About" },
+  { "path": "/user", "component": "User" },
+  {
+    "path": "/lettings",
+    "component": "List",
+    "meta": { "title": "Grace Miller Properties" }
+  },
+  {
+    "path": "/:id",
+    "component": "Details",
+    "meta": { "title": "Grace Miller X" },
+    "props": true
+  },
+  { "path": "/:path(.*)", "component": "NotFound" }
+]

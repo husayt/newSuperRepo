@@ -1,0 +1,83 @@
+{
+    "configFields": [
+        {
+            "name": "agencyName",
+            "required": true
+        },
+        {
+            "name": "mainMenuItems",
+            "required": true,
+            "defaultValue": [
+                { "title": "About", "url": "/about" }
+            ]
+        }
+    ],
+    "entities": [
+        {
+            "name": "Property",
+            "fields": [
+                {
+                    "name": "id",
+                    "required": true
+                },
+                {
+                    "name": "bedrooms",
+                    "required": true
+                }
+            ],
+            "defaultValuesFile": "property-mock.json"
+        },
+        {
+            "name": "Page",
+            "fields": [
+                {
+                    "name": "slug",
+                    "required": true
+                },
+                {
+                    "name": "content"
+                }
+            ]
+        }
+    ],
+    "views": [
+        {
+            "name": "PropertyList",
+            "transform": "./aircms/transform/property-list.js",
+            "relatedEntities": ["Property"],
+            "params": [
+                "pagenum"
+            ]
+        },
+        {
+            "name": "PropertyItem",
+            "transform": "./aircms/transform/property-item.js",
+            "relatedEntities": ["Property"],
+            "params": [
+                "id"
+            ]
+        },
+        {
+            "name": "PageItem",
+            "transform": "./aircms/transform/page-item.js",
+            "relatedEntities": ["Page"],
+            "params": [
+                "slug"
+            ]
+        }
+    ],
+    "routes": [
+        {
+            "path": "/properties/page/:pagenum",
+            "view": "PropertyList"
+        },
+        {
+            "path": "/properties/:id",
+            "view": "PropertyItem"
+        },
+        {
+            "path": "/:slug",
+            "view": "PageItem"
+        }
+    ]
+}
